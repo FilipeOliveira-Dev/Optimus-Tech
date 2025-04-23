@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 20px;
+    background-color: var(--cor-bg-cinza);
+}
+
+.footer__titulo {
+    color: var(--cor-preto);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.footer__texto {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--cor-cinzaclaro);
+    border-radius: 8px;
+    width: 200px;
+    margin: 12px 0;
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--cor-cinza);
+}
+
+.footer__direitos {
+    color: #98A2B3;
+}
+
+
+/* MEDIA QUERIE - ESTILIZAÇÕES PARA TELA DE CELULAR */
+@media screen and (max-width: 428px) {
+    .footer {
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .footer__titulo {
+        font-size: 20px;
+    }
+    
+    .footer__texto,
+    .footer__direitos {
+        font-size: 12px;
+    }
+}

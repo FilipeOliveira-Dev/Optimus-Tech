@@ -1,0 +1,108 @@
+/*  */
+.card__banner {
+    padding: 60px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.banner__button {
+    color: var(--cor-vinho);
+    background-color: var(--cor-rosa);
+    padding: 4px 12px;
+    margin: auto;
+    border-radius: 14px;
+    box-shadow: 0px 3px 4px #BFBFBF;
+}
+
+.banner__titulo {
+    color: var(--cor-preto);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.banner__texto {
+    color: var(--cor-cinza);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.banner__imagem {
+    margin: 30px 80px;
+    align-content: center;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    gap: 64px;
+}
+
+.vagas-por-setor {
+    display: flex;
+    flex-direction: column;
+    margin: 0 256px;
+    gap: 24px;
+}
+
+.vagas__setor {
+    color: var(--cor-preto);
+    font-size: 20px;
+}
+
+.vagas__card {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid var(--cor-cinzaclaro);
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.vaga__titulo {
+    color: var(--cor-preto);
+    font-size: 18px;
+}
+
+
+/* MEDIA QUERIE - ESTILIZAÇÕES PARA TELA DE TABLET */
+@media screen and (max-width: 1024px) {
+    .card__banner {
+        padding: 1em;
+    }
+
+    .vagas-por-setor {
+        margin: 0 15%;
+    }
+}
+
+
+/* MEDIA QUERIE - ESTILIZAÇÕES PARA TELA DE CELULAR */
+@media screen and (max-width: 428px) {
+    .vagas {
+        padding: 32px;
+        gap: 16px;
+    }
+
+    .banner__titulo {
+        font-size: 30px;
+    }
+
+    .banner__texto {
+        font-size: 12px
+    }
+
+    .banner__imagem {
+        margin: 0;
+    }
+
+    .vagas-por-setor {
+        margin: 0;
+        gap: 16px;
+    }
+}

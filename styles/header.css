@@ -1,0 +1,52 @@
+/* HEADER */
+.header__container {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 80px;
+    align-items: center;
+}
+
+.header__item {
+    text-decoration: none;
+    color:var(--cor-cinza);   
+    padding: 0.25em 1em;
+    border-radius: 7px;
+}
+
+.header__item:hover {
+    background-color: var(--cor-vinho);
+    color: var(--cor-branco);
+    transition: var(--transition-hover);
+}
+
+.button__cadastro {
+    background-color: var(--cor-vinho);
+    border-radius: 7px;
+    padding: 10px 18px;
+    color: var(--cor-branco);
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+}
+
+.button__cadastro:hover {
+    background-color: var(--cor-rosa);
+    color: var(--cor-vinho);
+    box-shadow: 0px 3px 4px #BFBFBF;
+    transition: var(--transition-hover);
+}
+
+
+/* MEDIA QUERIE - ESTILIZAÇÕES PARA TELA DE CELULAR */
+@media screen and (max-width: 428px) {
+    .header__container {
+        flex-direction: column;
+        gap: 3px;
+        padding: 18px;
+    }
+    
+    .header__navegacao {
+        display: flex;
+        align-items: center;
+    }
+}

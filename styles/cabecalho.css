@@ -1,0 +1,100 @@
+/* CABECALHO SOBRE NÓS */
+.cabecalho {
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20%;
+    gap: 24px;
+    text-align: center;
+}
+
+.cabecalho__topico {
+    color: var(--cor-vinho);
+}
+
+.cabecalho__titulo {
+    color: var(--cor-preto);
+    font-size: 48px;
+}
+
+.cabecalho__texto {
+    color: var(--cor-cinza);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* MÉTRICAS DE PROJETOS */
+.metricas__container {
+    display: flex;
+    padding: 0 32px;
+    margin: 0 80px;
+    gap: 32px;
+}
+
+.metricas__dados {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 12px;
+}
+
+.metricas__valor {
+    font-size: 60px;
+    color: var(--cor-vinho);
+    font-weight: 500;
+}
+
+.metricas__titulo {
+    font-size: 18px;
+    color: var(--cor-preto);
+    font-weight: 400;
+}
+
+.metricas__texto {
+    color: var(--cor-cinza);
+    font-weight: 300;
+}
+
+
+/* MEDIA QUERIE - ESTILIZAÇÕES PARA TELA DE TABLET */
+@media screen and (max-width: 1024px) {
+    .metricas__container {
+        padding: 0;
+        margin: 5%;
+    }
+
+    .metricas__dados {
+        width: 40%;
+    }
+}
+
+
+/* MEDIA QUERIE - ESTILIZAÇÕES PARA TELA DE CELULAR */
+@media screen and (max-width: 428px) {
+    .cabecalho {
+        padding: 20px;
+        gap: 12px;
+    }
+    
+    .cabecalho__titulo {
+        font-size: 30px;
+    }
+
+    .cabecalho__texto {
+        font-size: 12px
+    }
+
+    .metricas__container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .metricas__dados {
+        width: 45%;
+    }
+
+    .metricas__texto {
+        font-size: 12px;
+    }
+}
