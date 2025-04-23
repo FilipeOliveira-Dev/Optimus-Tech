@@ -45,14 +45,14 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
 <div align="center">
 <h3>Página completa - Mobile / Tablet / Desktop</h3><br>
     <a target="_blank" href="https://optimus-tech-jet.vercel.app">
-      <img width="23%" align="left" src="#" alt="Optimus Tech versao mobile">      
+      <img width="23%" align="left" src="https://github.com/user-attachments/assets/97ae2e82-3d20-4513-8e64-3804c9d9ade9" alt="Optimus Tech versao mobile">      
     </a>
     <a target="_blank" href="https://optimus-tech-jet.vercel.app">
-      <img width="70%" src="#" alt="Optimus Tech versao tablet"></a>
+      <img width="70%" src="https://github.com/user-attachments/assets/43701d61-12ab-4703-9968-cb2c9d754c5a" alt="Optimus Tech versao tablet"></a>
 <br>
 <br>
     <a target="_blank" href="https://optimus-tech-jet.vercel.app">
-      <img width="74.8%" src="#" alt="Optimus Tech versao desktop"></a>
+      <img width="74.8%" src="https://github.com/user-attachments/assets/9928cf38-4b02-4369-a399-c916238a5797" alt="Optimus Tech versao desktop"></a>
 </div>
       
 </div>
