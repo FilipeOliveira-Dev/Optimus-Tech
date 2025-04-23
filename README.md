@@ -1,7 +1,7 @@
 <h1 align="center">OptimusTech - 7 Days of Code</h1>
 
 <a target="_blank" href="https://optimus-tech-jet.vercel.app">
-<img align="center" src="https://github.com/filipe-oliveiradev/OptimusTech/assets/157177590/9c2672bf-a50a-4f32-87af-80313ac4651b" alt="Logo da 7 Days of Code">
+<img align="center" src="https://github.com/user-attachments/assets/491b545f-33f6-48c6-9d62-ec4a1df63b38" alt="Logo da 7 Days of Code">
 
 </hr>
 </hr>
@@ -45,14 +45,14 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
 <div align="center">
 <h3>Página completa - Mobile / Tablet / Desktop</h3><br>
     <a target="_blank" href="https://optimus-tech-jet.vercel.app">
-      <img width="23%" align="left" src="https://github.com/filipe-oliveiradev/OptimusTech/assets/157177590/f8e75db5-67c0-40b6-9500-da2cbd1d9559" alt="Optimus Tech versao mobile">      
+      <img width="23%" align="left" src="#" alt="Optimus Tech versao mobile">      
     </a>
     <a target="_blank" href="https://optimus-tech-jet.vercel.app">
-      <img width="70%" src="https://github.com/filipe-oliveiradev/OptimusTech/assets/157177590/95a35b6b-a345-4b5a-8055-76a07301468d" alt="Optimus Tech versao tablet"></a>
+      <img width="70%" src="#" alt="Optimus Tech versao tablet"></a>
 <br>
 <br>
     <a target="_blank" href="https://optimus-tech-jet.vercel.app">
-      <img width="74.8%" src="https://github.com/filipe-oliveiradev/OptimusTech/assets/157177590/c1187d50-595c-4e54-9a24-b67087a029bc" alt="Optimus Tech versao desktop"></a>
+      <img width="74.8%" src="#" alt="Optimus Tech versao desktop"></a>
 </div>
       
 </div>
